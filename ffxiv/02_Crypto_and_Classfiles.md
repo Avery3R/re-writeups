@@ -43,7 +43,7 @@ After decryption the magic is changed to `'SSSS'` in the internal CLBFile struct
 
 Unlike official JVM classfiles, CLB files have a fixed-size header. General structure is a bunch of field counts, and then a bunch of pointers within the file to field data. The fact that the `ParseCLBFile` function has code to convert java classfiles to clb files helped greatly with figuring out this structure.
 
-```
+```cpp
 struct CLBFile
 {
   int magic;
