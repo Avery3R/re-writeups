@@ -72,7 +72,7 @@ struct CLBFile
 
 In official jvm classfiles constant pool entries are of a variable size depending on the type(`tag`). They are of a fixed size within CLB files.
 
-```
+```cpp
 struct constant_pool_info
 {
   int tag;
