@@ -267,3 +267,6 @@ Crystal Tools(their game engine and editor), or if the code for displaying optio
 kind of menu were just stripped out of the release build. To get around this I'm going to
 write a dll that'll hook into `Window.askChoice` and display and let you select from the
 options in a console window so that you know wtf is actually goin' on.
+
+If you see any mistakes in this post or have any questions, feel free to pm me on
+[reddit, /u/Avery3R](https://reddit.com/user/Avery3R)
