@@ -1,4 +1,4 @@
-# Taking the Microsoft out of Windows Code Integrity, Part 1: On-Disk Patching
+# Patching Yourself into Windows Code Integrity, Part 1: On-Disk Patching
 
 ## My Machine, My Code
 
